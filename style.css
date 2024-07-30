@@ -430,7 +430,7 @@ nav .sign::before{
 .resourceContent {
   width: 507px;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
 
@@ -484,7 +484,7 @@ nav .sign::before{
 .leftConstulalcy p {
   margin-top: 50px;
   width: 569px;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-weight: 250;
 }
 
@@ -533,34 +533,7 @@ nav .sign::before{
   transform: translate(-50%, -50%);
 }
 
-.con-img1 {
-  z-index: 1;
-}
 
-.con-img2 {
-  z-index: 5;
-  top: 42%;
-}
-
-.con-im3 {
-  z-index: 6;
-  left: 80%;
-  top: 55%;
-}
-
-.con-img4 {
-  z-index: 2;
-}
-
-.con-img5 {
-  z-index: 3;
-  top: 55%;
-  left: 90%;
-}
-
-.con-img6 {
-  z-index: 4;
-}
 
 #footer {
   width: 100%;
@@ -599,6 +572,9 @@ nav .sign::before{
   align-items: start;
   gap: 25px;
 }
+.fsec1>img{
+  height: 70px;
+}
 
 .fsec1 h2,
 .fsec2 h2,
@@ -626,6 +602,10 @@ nav .sign::before{
   font-family: 250;
   position: relative;
   cursor: pointer;
+}
+
+.fsec4 .f-e{
+  text-transform: lowercase;
 }
 
 .fsec2 li::after{
@@ -717,6 +697,7 @@ nav .sign::before{
 
   .leftConstulalcy p {
     width: 400px;
+    
   }
 
   .buttons {
@@ -1037,40 +1018,8 @@ nav .sign::before{
   }
 
   .con-img {
-    height: 59%;
-    transform: translate(-63%, -50%);
-  }
-
-  .con-img1 {
-    z-index: 1;
-    top: 51%;
-  }
-
-  .con-img2 {
-    z-index: 5;
-    top: 37%;
-  }
-
-  .con-im3 {
-    z-index: 6;
-    left: 80%;
-    top: 55%;
-  }
-
-  .con-img4 {
-    z-index: 2;
-    top: 51%;
-  }
-
-  .con-img5 {
-    z-index: 3;
-    top: 38%;
-    left: 90%;
-  }
-
-  .con-img6 {
-    z-index: 4;
-    top: 55%;
+    height: 74%;
+    transform: translate(-50%, -50%);
   }
 
   .fsec2 li,
@@ -1114,11 +1063,9 @@ nav .sign::before{
     font-weight: 700;
   }
   .con-img{
-    height: 50%;
+    height: 63%;
   }
-  .con-img2{
-    top: 39%;
-  }
+ 
 
   #ourCources {
     padding: 100px 15px;
