@@ -267,6 +267,12 @@ form p span {
   #form2 select{
     font-size: 4vw;
   }
+  #email-id-field,
+  #name-id-field,
+  #password-id-field,
+  #phone-id-field{
+    font-size: 4vw;
+  }
 }
 
 @media screen and (max-width:376px) {
