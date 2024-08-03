@@ -1,6 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const navBarMenuFirst = document.querySelector("#navbarMenuFirst");
-const cross = document.querySelector(".cross h1");
+const cross = document.querySelector(".cross img");
 
 hamburger.addEventListener("click", () => {
   if (window.outerWidth <= 426) { // Mobile screen
